@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  html {
+    background-color: lightgray;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  header {
+    background-color: #fff;
+    height: 70px;
+    width: 100%;
+  }
+
+  .nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  div.logo {
+    padding: 1rem;
+    margin-left: 9rem;
+  }
+
+  div.logo:hover{
+    transform: scale(1.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  div.logo a {
+    color: #6070ff;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .nav-header .nav-menu {
+    height: 100%;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 7rem;
+  }
+  .nav-header .nav-menu li:hover {
+    transform: scale(1.3);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  nav-header nav.menu ul li a {
+    color: #344563;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .section_intro {
+    height: 853px;
+    width: 100%;
+    background-color: #fff;
+    border-bottom-left-radius: 100px;
+    background-image: url(./images/header-shapes-big.svg);
+    background-size: 97.04% 95.48%, cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section_intro div.full_info {
+    border: 2px solid red;
+    width: 65%;
+    padding: 20px;
+  }
+
+  div.full_info h1 {
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+    color: #091e42;
+  }
+  
+  div.full_info p span {
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+    color: #091e42;
+  }
+
+  div.full_info div.bio p{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #344563;
+    margin-bottom: 10px;
+  }
+
+  div.full_info div.link a {
+    color: #7f8cff;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+
+  }
+
+  ul.social_list {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+
+  }
+
+  ul.social_list .social_item {
+    margin-right: 18px;
+  }
+
+ 
