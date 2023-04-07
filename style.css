@@ -272,3 +272,113 @@ a.link_dif {
   background-color: #4053fc;
   padding: 10px 14px;
 }
+
+.mb {
+  margin-bottom: 100px;
+}
+
+/* End cards section */
+
+/* Start about_Yself section */
+
+.about_Yself {
+  height: 924px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  border-top-right-radius: 100px;
+
+}
+
+.about_Yself .self_right {
+  margin: 100px 20px 0 100px;
+  width: 500px;
+  height: 400px;
+}
+
+.about_Yself .self_right h3{
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  color: #091e42;
+}
+
+
+.about_Yself .self_left {
+  margin: 100px 100px 0 0;
+  width: 700px;
+  height: 400px;
+}
+
+
+.about_Yself .self_right a.self_link {
+  border:1px solid #396df2;
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: 500;
+  font-style: normal;
+  color: #396df2;
+  padding: 10px 14px;
+  margin-top: 40px;
+}
+
+.about_Yself .self_right div.self_message {
+  padding: 10px 0;
+}
+
+.about_Yself .self_right div.self_message a {
+  font-size: 16px;
+  color: #7f8cff;
+  font-weight: 500;
+  font-style: normal;
+  padding: 10px 0;
+}
+
+.smb {
+  margin-bottom: 20px;
+}
+
+.self_left ul.lang li.lang {
+  padding: 10px 0 0 10px;
+}
+
+.self_left ul.lang li.lang div.language,
+.self_left ul.lang li.lang div.Framework,
+.self_left ul.lang li.lang div.Skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.self_left ul.lang li.lang div.language h2,
+.self_left ul.lang li.lang div.Framework h2,
+.self_left ul.lang li.lang div.Skill h2 {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  color: #344563;
+}
+
+.self_left div.lang ul.web_lang {
+  display: flex;
+}
+
+.self_left .lang ul.web_lang li {
+  height: 100px;
+  width: 100px;
+  margin: 10px 0 0 10px;
+  background-color: #f7f7f9;
+}
+
+.self_left .lang ul.web_lang li span {
+  display: block;
+  color: black;
+  padding-top: 10px;
+}
+
+.self_left .lang ul.web_lang li:first-child {
+  margin: 10px 0 0 0;
+}
