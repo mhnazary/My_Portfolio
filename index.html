@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
+ 
+    <div class="container">
    <header>
         <nav class="nav-header">
             <div class="logo">
@@ -231,5 +233,29 @@
             </ul>
         </div>
     </section>
+
+    <!-- Edn about_myself part -->
+    <!-- Start contact_me part -->
+    <section class="cantact_me">
+        <div class="contact_form">
+            <h2>Contact me</h2>
+            <p class="contact_message">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!</p>
+            <div class="inputs">
+                <form action="https://formspree.io/f/xpzeygwb" method="POST" class="form" id="contact_action">
+                    <input type="text" class="item1" name="name" id="name" placeholder="Lorem Ipsum" required maxlength="30" >
+                    <input type="email" class="item1" name="email" id="email" placeholder="loramipsum@gmail.com" required>
+                    <textarea name="message" id="message" class="item3" placeholder="Write your message here" maxlength="500" required></textarea>
+                    <button class="formbtn" type="submit">Get in touch</button>
+                </form>
+                <div class="contact-form__footer">
+                    <div class="shape">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</div>
 </body>
 </html>

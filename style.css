@@ -4,9 +4,16 @@
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
   }
+
+  body {
+    background-color: gray;
+    margin: auto;
+  }
   
-  html {
-    background-color: lightgray;
+  div.container {
+    margin: auto;
+    width: 1440px;
+    background-color:  #E5E5E5;
   }
 
   a {
@@ -20,7 +27,7 @@
   header {
     background-color: #fff;
     height: 70px;
-    width: 100%;
+    width: 1440px;
   }
 
   .nav-header {
@@ -69,7 +76,7 @@
 
   .section_intro {
     height: 853px;
-    width: 100%;
+    width: 1440px;
     background-color: #fff;
     border-bottom-left-radius: 100px;
     background-image: url(./images/header-shapes-big.svg);
@@ -283,7 +290,7 @@ a.link_dif {
 
 .about_Yself {
   height: 924px;
-  width: 100%;
+  width: 1440px;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -381,4 +388,110 @@ a.link_dif {
 
 .self_left .lang ul.web_lang li:first-child {
   margin: 10px 0 0 0;
+}
+
+/* End About myself part */
+
+/* Start contact_me part */
+
+.cantact_me {
+  height: 846px;
+  width: 1440px;
+  border: 2px solid red;
+  background-color: #6070ff;
+  margin-top: -200px;
+  z-index: 1;
+  border-top-left-radius: 100px;
+  background-image: url(./images/contact-form-shapes-desktop.svg);
+  background-size:85% 85% cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cantact_me .contact_form {
+  width: 550px;
+  border: 2px solid red;
+  margin: 180px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cantact_me .contact_form h2 {
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+
+}
+
+.cantact_me .contact_form .contact_message {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ebebff;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin-top: 15px;
+  width: 480px;
+  padding: 15px;
+}
+
+.item1 {
+  padding: 15px;
+  margin: 8px 0;
+  width: 100%;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  border: 1px solid #cfd8dc;
+  outline: 0;
+  border-radius: 2px;
+}
+
+.item3 {
+  padding: 15px 36px 110px 16px;
+  margin: 8px 0;
+  width: 100%;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border: 1px solid #cfd8dc;
+  border-radius: 2px;
+  outline: 0;
+}
+
+.formbtn {
+  width: 150px;
+  height: 48px;
+  margin: 20px auto;
+  border: 2px solid #fff;
+  padding: 12px 16px;
+  background: #fff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+.formbtn:hover {
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+}
+
+.formbtn:active {
+  background: #2230d2;
+  color: #fff;
+  border-radius: 8px;
 }
