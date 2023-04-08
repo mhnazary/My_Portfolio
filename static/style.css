@@ -311,6 +311,8 @@ header {
   width: 8px;
   height: 14px;
   display: inline-block;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
 }
 
 .skill {
@@ -325,19 +327,28 @@ header {
   border-bottom: 1px solid var(--border);
   cursor: pointer;
   border-radius: 8px;
+  transition: 0.3s ease;
 }
 
 .skill:hover {
   background-color: var(--font-contact-des);
+  transition: 0.3s ease;
 }
 
 .menu-item-checkbox:checked ~ .skill {
   border-bottom: 0;
+  transition: border-bottom 0.3s ease;
+}
+
+.menu-item-checkbox:checked ~ .skill .arrow {
+  transform: rotate(90deg);
+  transition: transform 0.3s ease;
 }
 
 .menu-item-checkbox:checked ~ .sub-skills {
   display: block;
   padding-block: 8px;
+  transition: 0.3s ease;
 }
 
 .sub-skill {
