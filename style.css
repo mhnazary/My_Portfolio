@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: gray;
+  background-color: #e5e5e5;
   margin: auto;
 }
 
@@ -161,7 +161,6 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid green;
   }
 
   section.cards_section .cards_list .mt {
