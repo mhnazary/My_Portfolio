@@ -472,8 +472,6 @@ header {
     --top-nav: 48px;
   }
 
-  /* **** Header section **** */
-
   .nav-header {
     min-width: 375px;
     padding-inline: 6.4vw;
@@ -591,6 +589,10 @@ header {
   }
 
   /* **** Header section **** */
+
+  .modal__container {
+    display: none;
+  }
 
   header {
     display: flex;
@@ -820,5 +822,14 @@ header {
 
   .form-section label {
     font-size: 16px;
+  }
+}
+
+@keyframes animateRight {
+  0%{
+    margin-top: -300px;
+  }
+  100% {
+    margin-top: 0;
   }
 }

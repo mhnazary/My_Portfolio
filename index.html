@@ -5,20 +5,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./static/style.css">
   <title>Disktop_Versioin_Portofolio</title>
 </head>
 <body> 
+  
   <header>
+   
     <nav class="nav-header">
       <div class="logo">
-        <a href="#intro">My Logo</a>
+        <a id="logo" href="#intro">My Logo</a>
       </div>
       <ul class="nav-menu">
         <input type="checkbox" id="menu_toggle" />
-        <label for="menu_toggle" class="menu_hamburger"><img src="./images/Union.svg" alt="Menu"></label>
+        <label for="menu_toggle" class="menu_hamburger">
+          <i id="btn__open" class="fa fa-bars" aria-hidden="true"></i>
+        </label>
         <ul class="menu">
           <li><a href="#works">Portfolio</a></li>
           <li><a href="#about">About</a></li>
@@ -26,6 +31,7 @@
         </ul>
       </ul>
     </nav>
+    
   </header>
   <section class="intro info" id="intro">
     <h1 class="section-title">I'm Mahram Hossain <br> Glad to see you!</h2>
@@ -248,5 +254,7 @@
       </form>
     </section>
   </section>
+
+  <script src="js.js"></script>
 </body>
 </html>
