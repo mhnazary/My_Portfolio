@@ -55,7 +55,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-inline: 24px;
-  height: var(--top-nav);
 }
 
 .logo {
@@ -477,7 +476,7 @@ header {
     padding-inline: 6.4vw;
   }
 
-#btn__open {
+  #btn__open {
     color: #6070ff;
     font-size: 1.2rem;
   }
@@ -493,6 +492,7 @@ header {
     padding: 2rem;
     display: none;
     animation: animateRight 1s;
+    margin-top: -15px;
   }
 
   .modal__header {
