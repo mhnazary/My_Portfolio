@@ -55,6 +55,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-inline: 24px;
+  height: var(--top-nav);
 }
 
 .logo {
@@ -492,7 +493,6 @@ header {
     padding: 2rem;
     display: none;
     animation: animateRight 1s;
-    margin-top: -15px;
   }
 
   .modal__header {
