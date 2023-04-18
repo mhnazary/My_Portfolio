@@ -508,7 +508,7 @@ header {
     align-items: start;
   }
 
-  .modal__content h2 {
+  .modal__content a {
     font-size: 32px;
     font-weight: 600;
     color: white;
