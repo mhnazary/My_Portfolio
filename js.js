@@ -35,4 +35,3 @@ title3.addEventListener('click', ()=>{
     openBtn.style.display = "block"
     modal.style.display = "none";
 })
-
