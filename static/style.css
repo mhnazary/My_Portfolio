@@ -477,7 +477,7 @@ header {
     padding-inline: 6.4vw;
   }
 
-  #btn__open {
+#btn__open {
     color: #6070ff;
     font-size: 1.2rem;
   }
@@ -487,7 +487,7 @@ header {
   .modal__container {
     height: 100vh;
     width: 100vw;
-    background-color: #6070ff;
+    background-color:#6070ff;
     z-index: 1;
     opacity: 0.91;
     padding: 2rem;
@@ -507,7 +507,7 @@ header {
     align-items: start;
   }
 
-  .modal__content h2 {
+  .modal__content h2{
     font-size: 32px;
     font-weight: 600;
     color: white;
@@ -868,10 +868,9 @@ header {
 }
 
 @keyframes animateRight {
-  0% {
+  0%{
     margin-top: -300px;
   }
-
   100% {
     margin-top: 0;
   }
