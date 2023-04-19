@@ -24,4 +24,3 @@ contactForm.addEventListener('submit', (event) => {
     contactForm.result();
   }
 });
-
