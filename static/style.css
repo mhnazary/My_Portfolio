@@ -734,7 +734,49 @@ header {
   }
 
   /* **** Header section **** */
+  #btn__open {
+    color: #6070ff;
+    font-size: 1.2rem;
+  }
 
+  /* **** Header section **** */
+
+  .modal__container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(96, 112, 255, 0.8);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+    opacity: 1;
+    padding: 2rem;
+    display: none;
+    animation: animateRight 1s;
+  }
+
+  .modal__header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+
+  .modal__content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .modal__content a {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    font-style: normal;
+    margin-top: 1rem;
+  }
+
+  .modal__icon {
+    font-size: 1.2rem;
+  }
+  
   .nav-header {
     min-width: 375px;
     padding-inline: 6.4vw;
