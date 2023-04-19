@@ -68,6 +68,7 @@ After you're finished please remove all the comments and instructions!
 1- HTML.
 2- CSS.
 3- Liners.
+4- JavaScript.
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
@@ -85,6 +86,7 @@ After you're finished please remove all the comments and instructions!
 
 - added index.html file.
 - added style.css file.
+- added js.js
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
