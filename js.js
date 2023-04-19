@@ -34,10 +34,9 @@ title3.addEventListener('click', () => {
   modal.style.display = 'none';
 });
 
-
 // popup window
 
-const btnLive = 'See live'; 
+const btnLive = 'See live';
 const btnSource = 'See source';
 
 const works = [

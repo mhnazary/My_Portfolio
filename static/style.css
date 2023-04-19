@@ -722,7 +722,7 @@ header {
 
 #validation {
   color: #f00;
-  font-weight:bold ;
+  font-weight: bold;
   font-size: 18px;
 }
 
@@ -776,7 +776,7 @@ header {
   .modal__icon {
     font-size: 1.2rem;
   }
-  
+
   .nav-header {
     min-width: 375px;
     padding-inline: 6.4vw;
