@@ -50,7 +50,7 @@ const works = [
     snapshot: './images/Snapshoot-Portfolio.svg',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
     connectionstext: [btnLive, btnSource],
-    connectionsURL: ['', ''],
+    connectionsURL: ['https://mhnazary.github.io/Desktop-_Version_Portfolio/', 'https://github.com/mhnazary/Desktop-_Version_Portfolio'],
   },
   {
     name: 'Multi-Post Stories',
@@ -62,7 +62,7 @@ const works = [
     snapshot: './images/Snapshoot-multi.svg',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
     connectionstext: [btnLive, btnSource],
-    connectionsURL: ['', ''],
+    connectionsURL: ['https://mhnazary.github.io/Desktop-_Version_Portfolio/', 'https://github.com/mhnazary/Desktop-_Version_Portfolio'],
   },
   {
     name: 'Facebook 360',
@@ -74,7 +74,7 @@ const works = [
     snapshot: './images/topic-porta.svg',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
     connectionstext: [btnLive, btnSource],
-    connectionsURL: ['', ''],
+    connectionsURL: ['https://mhnazary.github.io/Desktop-_Version_Portfolio/', 'https://github.com/mhnazary/Desktop-_Version_Portfolio'],
   },
   {
     name: 'Uber Navigation',
@@ -86,7 +86,7 @@ const works = [
     snapshot: './images/mul-stories-porta.svg',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
     connectionstext: [btnLive, btnSource],
-    connectionsURL: ['', ''],
+    connectionsURL: ['https://mhnazary.github.io/Desktop-_Version_Portfolio/', 'https://github.com/mhnazary/Desktop-_Version_Portfolio'],
   },
 ];
 
@@ -100,7 +100,7 @@ const works2 = [
     snapshot: './images/Snapshoot-Portfolio.svg',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
     connectionstext: [btnLive, btnSource],
-    connectionsURL: ['', ''],
+    connectionsURL: ['https://mhnazary.github.io/Desktop-_Version_Portfolio/', 'https://github.com/mhnazary/Desktop-_Version_Portfolio'],
   },
   {
     name: 'Multi-Post Stories',
@@ -111,7 +111,7 @@ const works2 = [
     snapshot: './images/Snapshoot-multi.svg',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
     connectionstext: [btnLive, btnSource],
-    connectionsURL: ['', ''],
+    connectionsURL: ['https://mhnazary.github.io/Desktop-_Version_Portfolio/', 'https://github.com/mhnazary/Desktop-_Version_Portfolio'],
   },
   {
     name: 'Facebook 360',
@@ -122,7 +122,7 @@ const works2 = [
     snapshot: './images/topic-porta.svg',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
     connectionstext: [btnLive, btnSource],
-    connectionsURL: ['', ''],
+    connectionsURL: ['https://mhnazary.github.io/Desktop-_Version_Portfolio/', 'https://github.com/mhnazary/Desktop-_Version_Portfolio'],
   },
   {
     name: 'Uber Navigation',
@@ -133,7 +133,7 @@ const works2 = [
     snapshot: './images/mul-stories-porta.svg',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
     connectionstext: [btnLive, btnSource],
-    connectionsURL: ['', ''],
+    connectionsURL: ['https://mhnazary.github.io/Desktop-_Version_Portfolio/', 'https://github.com/mhnazary/Desktop-_Version_Portfolio'],
   },
 ];
 
