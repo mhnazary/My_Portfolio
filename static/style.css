@@ -645,7 +645,8 @@ header {
   text-align: center;
   width: auto;
   color: var(--letter-bb);
-  background-color: var(--bg-contact);
+
+  /* background-color: var(--bg-contact); */
   padding-bottom: 12px;
   font-weight: 700;
 }
@@ -654,7 +655,8 @@ header {
   font-weight: 400;
   text-align: center;
   color: var(--letter-bb);
-  background-color: var(--bg-contact);
+
+  /* background-color: var(--bg-contact); */
   padding-bottom: 52px;
 }
 
@@ -706,24 +708,6 @@ header {
   line-height: 150%;
   color: var(--letter-bb);
   background-color: var(--bg-contact);
-}
-
-.form-section .invalid {
-  border: 2px solid var(--font-error);
-  color: var(--font-error);
-  box-shadow: none;
-}
-
-.form-section .valid {
-  border: 2px solid var(--form-valid);
-  color: var(--font-1);
-  box-shadow: none;
-}
-
-#validation {
-  color: #f00;
-  font-weight: bold;
-  font-size: 18px;
 }
 
 /* **** Media Queries 375px and 768px **** */
@@ -898,6 +882,13 @@ header {
     line-height: 28px;
     text-align: center;
     max-width: 569px;
+  }
+
+  .form-section #error-message {
+    color: #f00;
+    display: none;
+    font-size: 1.2rem;
+    font-weight: bold;
   }
 }
 
@@ -1219,6 +1210,13 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+
+  .form-section #error-message {
+    color: #f00;
+    display: none;
+    font-size: 1.5rem;
+    font-weight: bold;
   }
 
   .form-section input,
