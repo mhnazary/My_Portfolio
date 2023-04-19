@@ -883,9 +883,9 @@ header {
   }
 
   .form-section #error-message {
-    color: #f00;
+    color: #fff;
     display: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
   }
 }
