@@ -126,7 +126,7 @@ const works2 = [
     connectionsURL: ['', ''],
   },
   {
-    name: '',
+    name: 'Uber Navigation',
     cat: ['Uber', 'Lead Developer', 2018],
     description:
     'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
