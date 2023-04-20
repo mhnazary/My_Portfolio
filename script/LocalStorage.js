@@ -8,7 +8,7 @@ let formData = {
   const inputEmail = document.getElementById('email');
   const inputMessage = document.getElementById('contact-descrip');
   
-  for (let key in ) {
+  for (let key in formData ) {
     if (formData.hasOwnProperty(key)) {
       // add event listener to each input element
       switch (key) {
