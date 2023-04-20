@@ -10,7 +10,6 @@ let formData = {
   
   for (let key in formData ) {
     if (formData.hasOwnProperty(key)) {
-      // add event listener to each input element
       switch (key) {
         case 'name':
           inputName.addEventListener('input', event => {
@@ -41,7 +40,7 @@ let formData = {
     inputMessage.value = formData.message;
   }
   
-  const form = document.getElementById('contact__form');
+  const form = document.getElementById('contact-form');
   form.addEventListener('submit', event => {
     localStorage.setItem('formData', JSON.stringify(formData));
   });
