@@ -341,16 +341,16 @@ header {
   z-index: 1;
 }
 
+.work-btn1:active {
+  background: var(--btn-active);
+  color: var(--bckgrd);
+  transition: 0.3s ease;
+}
+
 .form-section .work-btn1:hover {
   color: var(--btn-color);
   background-color: var(--bckgrd);
   transform: scale(1.2);
-  transition: 0.3s ease;
-}
-
-.work-btn1:active {
-  background: var(--btn-active);
-  color: var(--bckgrd);
   transition: 0.3s ease;
 }
 
