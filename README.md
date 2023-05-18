@@ -65,10 +65,10 @@ After you're finished please remove all the comments and instructions!
 >This is Hello_Microverse_pro I created it using HTML, CSS and JavaScript.
 
 ## 🛠 Built With <a name="built-with"></a>
-1- HTML.
-2- CSS.
-3- Linters. :boom:
-4- JavaScript.
+1- :heavy_check_mark: HTML. 
+2- :heavy_check_mark: CSS.
+3- :heavy_check_mark: Linters. :boom:
+4- :heavy_check_mark: JavaScript.
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
