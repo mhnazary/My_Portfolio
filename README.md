@@ -67,7 +67,7 @@ After you're finished please remove all the comments and instructions!
 ## 🛠 Built With <a name="built-with"></a>
 1- HTML.
 2- CSS.
-3- Liners.
+3- Linters. :boom:
 4- JavaScript.
 ### Tech Stack <a name="tech-stack"></a>
 
