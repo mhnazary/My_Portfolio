@@ -41,99 +41,96 @@ const btnSource = 'See source';
 
 const works = [
   {
-    name: 'Tonic',
-    cat: ['CANOPY', 'Back End Dev', 2015],
+    name: '4Learn app',
+    cat: ['Project', 'Full-stack dev', 2023],
     description:
       `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
     tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/Snapshoot-Portfolio.svg',
+    snapshot: './images/4learn.png',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
     connectionstext: [btnLive, btnSource],
-    connectionsURL: ['https://mhnazary.github.io/Desktop-_Version_Portfolio/', 'https://github.com/mhnazary/Desktop-_Version_Portfolio'],
+    connectionsURL: ['https://4-learn-website.vercel.app/', 'https://github.com/mhnazary/4Learn-website'],
   },
   {
-    name: 'Multi-Post Stories',
-    cat: ['FACEBOOK', 'Full Stack Dev', 2015],
+    name: 'Math Magician',
+    cat: ['Project', 'Full-stack dev', 2023],
+    description:
+    `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
+    tags: ['React', 'Redux'],
+    snapshot: './images/math.png',
+    connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
+    connectionstext: [btnLive, btnSource],
+    connectionsURL: ['https://math-magicians-theta.vercel.app/', 'https://github.com/mhnazary/math-magicians'],
+  },
+  {
+    name: 'Air Polution',
+    cat: ['Project', 'Full-stack dev', 2023],
+    description:
+    `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
+    tags: ['React', 'Redux'],
+    snapshot: './images/air.png',
+    connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
+    connectionstext: [btnLive, btnSource],
+    connectionsURL: ['https://react-capstone-project-chi.vercel.app/', 'https://github.com/mhnazary/air-polution-app'],
+  },
+  {
+    name: 'Js Capstone',
+    cat: ['Project', 'Full-stack dev', 2023],
     description:
     `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
     tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/Snapshoot-multi.svg',
+    snapshot: './images/film.png',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
-    connectionstext: [btnLive, btnSource],
-    connectionsURL: ['https://mhnazary.github.io/Desktop-_Version_Portfolio/', 'https://github.com/mhnazary/Desktop-_Version_Portfolio'],
-  },
-  {
-    name: 'Facebook 360',
-    cat: ['FACEBOOk', 'Full Stack Dev', 2015],
-    description:
-    `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/topic-porta.svg',
-    connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
-    connectionstext: [btnLive, btnSource],
-    connectionsURL: ['https://mhnazary.github.io/Desktop-_Version_Portfolio/', 'https://github.com/mhnazary/Desktop-_Version_Portfolio'],
-  },
-  {
-    name: 'Uber Navigation',
-    cat: ['Uber', 'Lead Developer', 2018],
-    description:
-    `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
-    tags: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
-    snapshot: './images/mul-stories-porta.svg',
-    connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
-    connectionstext: [btnLive, btnSource],
-    connectionsURL: ['https://mhnazary.github.io/Desktop-_Version_Portfolio/', 'https://github.com/mhnazary/Desktop-_Version_Portfolio'],
+    connectionstext: [btnLive, btnSource],    connectionsURL: ['https://github.com/mhnazary/JS-Capstone', 'https://github.com/mhnazary/JS-Capstone'],
   },
 ];
 
 const works2 = [
   {
-    name: 'Tonic',
-    cat: ['CANOPY', 'Back End Dev', 2015],
+    name: '4Learn app',
+    cat: ['Project', 'Full-stack dev', 2023],
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/Snapshoot-Portfolio.svg',
+    tags: ['React', 'Tailwind'],
+    snapshot: './images/4learn.png',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
     connectionstext: [btnLive, btnSource],
-    connectionsURL: ['https://mhnazary.github.io/Desktop-_Version_Portfolio/', 'https://github.com/mhnazary/Desktop-_Version_Portfolio'],
+    connectionsURL: ['https://4-learn-website.vercel.app/', 'https://github.com/mhnazary/4Learn-website'],
   },
   {
-    name: 'Multi-Post Stories',
-    cat: ['FACEBOOK', 'Full Stack Dev', 2015],
+    name: 'Math Magician',
+    cat: ['Project', 'Full-stack dev', 2023],
     description:
     'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/Snapshoot-multi.svg',
+    tags: ['React', 'Redux'],
+    snapshot: './images/math.png',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
-    connectionstext: [btnLive, btnSource],
-    connectionsURL: ['https://mhnazary.github.io/Desktop-_Version_Portfolio/', 'https://github.com/mhnazary/Desktop-_Version_Portfolio'],
+    connectionstext: [btnLive, btnSource],    connectionsURL: ['https://math-magicians-theta.vercel.app/', 'https://github.com/mhnazary/math-magicians'],
   },
   {
-    name: 'Facebook 360',
-    cat: ['FACEBOOk', 'Full Stack Dev', 2015],
+    name: 'Air Polution',
+    cat: ['Project', 'Full-stack dev', 2023],
     description:
     'Exploring the future of media in Facebook\'s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/topic-porta.svg',
+    tags: ['React', 'Redux'],
+    snapshot: './images/air.png',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
-    connectionstext: [btnLive, btnSource],
-    connectionsURL: ['https://mhnazary.github.io/Desktop-_Version_Portfolio/', 'https://github.com/mhnazary/Desktop-_Version_Portfolio'],
+    connectionstext: [btnLive, btnSource],    connectionsURL: ['https://react-capstone-project-chi.vercel.app/', 'https://github.com/mhnazary/air-polution-app'],
   },
   {
-    name: 'Uber Navigation',
-    cat: ['Uber', 'Lead Developer', 2018],
+    name: 'Js Capstone',
+    cat: ['Project', 'Full-stack dev', 2023],
     description:
     'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    tags: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
-    snapshot: './images/mul-stories-porta.svg',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    snapshot: './images/film.png',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
     connectionstext: [btnLive, btnSource],
-    connectionsURL: ['https://mhnazary.github.io/Desktop-_Version_Portfolio/', 'https://github.com/mhnazary/Desktop-_Version_Portfolio'],
+    connectionsURL: ['https://github.com/mhnazary/JS-Capstone', 'https://github.com/mhnazary/JS-Capstone'],
   },
 ];
 
